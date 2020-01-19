@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -j oe
+#PBS -q gpu
+#PBS -l select=1:ncpus=24
+#PBS -l walltime=08:00:00
+#PBS -P Personal
+cd CS3244
+module load python/2.7.12
+module load tensorflow/1.0+keras
+python alexnet_v2_1.py > alexnet.log

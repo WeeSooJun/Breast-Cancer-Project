@@ -1,0 +1,2 @@
+"C:\windows\py.exe" "%L" %*
+"C:\Users\user\AppData\Local\Programs\Python\Python36\pythonw.exe" -m idlelib "%L" %*
